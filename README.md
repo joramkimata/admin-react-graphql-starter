@@ -1,6 +1,6 @@
 # React Front-End - Starter & User Management Include
 
-![](https://github.com/joramkimata/admin-react-graphql-starter/blob/main/public/logo_front.png?raw=true | width=100)
+<img src="https://github.com/joramkimata/admin-react-graphql-starter/blob/main/public/logo_front.png" alt="Open Source" width="100"/>
 
 ## Tools used
 
