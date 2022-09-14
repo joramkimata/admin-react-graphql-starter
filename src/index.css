@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  font-family: 'Roboto';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+.ant-table-content {
+  box-shadow: 0 3px 1px -2px rgb(0 0 0 / 20%), 0 2px 2px 0 rgb(0 0 0 / 14%), 0 1px 5px 0 rgb(0 0 0 / 12%);
+}
+
+
+.ant-table-cell {
+  border: 0.5px solid rgb(245, 243, 243);
+}
+
+.ant-table-tbody>tr>td,
+.ant-table-thead>tr>th,
+.ant-table tfoot>tr>td,
+.ant-table tfoot>tr>th {
+  padding: 4px !important;
+}
