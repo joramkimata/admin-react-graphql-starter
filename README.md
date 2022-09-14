@@ -1,5 +1,7 @@
 # React Front-End - Starter & User Management Include
 
+![alt text](https://github.com/joramkimata/admin-react-graphql-starter/blob/main/public/logo.png?raw=true)
+
 ## Tools used
 
 - [React Router v6](https://reactrouter.com/docs/en/v6/getting-started/overview)
@@ -25,7 +27,7 @@
 - [React-Select v4.3.1](https://github.com/jedwatson/react-select/tree/v4.3.1)
 - [react-select-country-list v2.2.1](https://github.com/Chun-Lin/react-select-country-list/tree/2.2.1)
 
-# 1. Change Project name from `package.json`
+### 1. Change Project name from `package.json`
 
 ```
 {
@@ -35,8 +37,8 @@
 }
 ```
 
-# 2. Change Your Logo under `src/assets/logo.png`
+### 2. Change Your Logo under `src/assets/logo.png`
 
-# 3. Customize constants here: `src/utils/constants.js`
+### 3. Customize constants here: `src/utils/constants.js`
 
-# 4. Customize layout.css here: `src/components/layout/Layout.css`
+### 4. Customize layout.css here: `src/components/layout/Layout.css`
