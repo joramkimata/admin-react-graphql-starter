@@ -9,4 +9,4 @@ export const GRAPHQL_URL = "https://backend-izweb-academy.herokuapp.com/graphql"
 
 export const APP_NAME = "OpenSource";
 
-export const PRIMARY_COLOR = "#434670"
+export const PRIMARY_COLOR = "green"
