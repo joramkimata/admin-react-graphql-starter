@@ -2,8 +2,9 @@
 import React from 'react'
 import LoadingOverlay from 'react-loading-overlay-ts'
 import { PropagateLoader } from 'react-spinners'
+import { PRIMARY_COLOR } from '../../utils/constants'
 
-const LoginLoader = ({ loading, children, color = '#434670' }) => {
+const LoginLoader = ({ loading, children, color = PRIMARY_COLOR }) => {
     return (
         <LoadingOverlay active={loading} spinner={<PropagateLoader color={color} />} styles={{
             overlay: (base) => ({

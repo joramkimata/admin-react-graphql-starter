@@ -5,8 +5,6 @@ import {
     HomeOutlined,
     CheckOutlined,
     UsergroupAddOutlined,
-    BookOutlined,
-    ScheduleOutlined
 } from '@ant-design/icons';
 import { Link, useLocation } from 'react-router-dom';
 import { useReactiveVar } from '@apollo/client';
@@ -19,20 +17,6 @@ const items = [
         label: 'Dashboard',
         path: '/dashboard',
         permission: 'VIEW_DASHBOARD'
-    },
-    {
-        key: `courses`,
-        icon: <BookOutlined />,
-        label: 'Courses',
-        path: '/courses',
-        permission: 'VIEW_COURSES'
-    },
-    {
-        key: `students`,
-        icon: <ScheduleOutlined />,
-        label: 'Students',
-        path: '/students',
-        permission: 'VIEW_STUDENTS'
     },
     {
         key: `roles`,
